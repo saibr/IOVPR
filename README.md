@@ -22,7 +22,7 @@ This code is based on the code of 'Self-supervising Fine-grained Region Similari
 #### Main Modifications
 + It is able to process the dataset files for IOVPR.
 + It is able to evaluate on the large scale dataset Outdoor-Ams.
-+ It uses Faiss for faster evaluation.
++ It uses [Faiss](https://github.com/facebookresearch/faiss) for faster evaluation.
 
 
 #### Requirements
