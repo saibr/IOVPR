@@ -51,12 +51,12 @@ For evaluation, we use test_faiss.sh.
 
 Ams30k:
 ```shell
-./scripts/test_faiss.sh <PATH TO MODEL> ams <30k> <PATH TO STORE FEATURES> <FEATURE_FILE_NAME>
+./scripts/test_faiss.sh <PATH TO MODEL> ams 30k <PATH TO STORE FEATURES> <FEATURE_FILE_NAME>
 ```
 
 Outdoor-Ams:
 ```shell
-./scripts/test_faiss.sh <PATH TO MODEL> ams <outdoor> <PATH TO STORE FEATURES> <FEATURE_FILE_NAME>
+./scripts/test_faiss.sh <PATH TO MODEL> ams outdoor <PATH TO STORE FEATURES> <FEATURE_FILE_NAME>
 ```
 Note that this uses faiss_evaluators.py instead of the original evaluators.py.
 
